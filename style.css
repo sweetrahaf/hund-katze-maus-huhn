@@ -1,3 +1,69 @@
 *{
 	box-sizing: border-box;
 }
+body{
+	background: orange;
+}
+.wrapper{
+	background: lightgray;
+	width: 900px;
+	margin: 2rem auto;
+
+	}
+h1{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.row{
+	display: flex;
+
+}
+img{
+	width:  100%;
+}
+.tiere{
+	margin: 0px 10px;
+	position: relative;
+
+}
+p{	position: absolute;
+	background: white;
+	padding: 5px;
+
+}
+
+#hund{
+	bottom: 0;
+	left: 0;
+	z-index: 3
+}
+
+#katze{
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+}
+#maus{
+	top:  0;
+	right: 0;
+}
+#huhn{
+	top: 0;
+	left: 0;
+}
+span{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+#sh{
+	left:0;
+}
+#sk{
+	right:  0;
+	}
